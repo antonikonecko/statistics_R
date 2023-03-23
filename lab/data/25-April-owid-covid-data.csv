@@ -1,0 +1,24 @@
+
+R version 4.0.4 (2021-02-15) -- "Lost Library Book"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R jest oprogramowaniem darmowym i dostarczany jest BEZ JAKIEJKOLWIEK GWARANCJI.
+Mo¿esz go rozpowszechniaæ pod pewnymi warunkami.
+Wpisz 'license()' lub 'licence()' aby uzyskaæ szczegó³y dystrybucji.
+
+R jest projektem kolaboracyjnym z wieloma uczestnikami.
+Wpisz 'contributors()' aby uzyskaæ wiêcej informacji oraz
+'citation()' aby dowiedzieæ siê jak cytowaæ R lub pakiety R w publikacjach.
+
+Wpisz 'demo()' aby zobaczyæ demo, 'help()' aby uzyskaæ pomoc on-line, lub
+'help.start()' aby uzyskaæ pomoc w przegl¹darce HTML.
+Wpisz 'q()' aby wyjœæ z R.
+
+> #!/usr/bin/env Rscript
+> args = commandArgs(trailingOnly=TRUE)
+> if (length(args)==0) {
++         stop("Nalezy podac co najmniej jeden argument wejsciowy")
++ }
+B£¥D: Nalezy podac co najmniej jeden argument wejsciowy
+Wykonywanie wstrzymane
